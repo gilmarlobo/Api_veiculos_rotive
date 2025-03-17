@@ -13,7 +13,12 @@ SECRET_KEY = 'django-insecure-050-h_whwd19&771()nn1vcduxi()9z-j$rrbmtp0qryi=@gb%
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    "veiculos-rotive.onrender.com",
+    "localhost",
+    "127.0.0.1",
+]
+
 
 
 # Application definition
